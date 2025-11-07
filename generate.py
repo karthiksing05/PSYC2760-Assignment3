@@ -2,8 +2,8 @@ import os
 import random
 import subprocess
 
-WORDS = ["pabiku", "tibudo", "lagome"]
-SYLLABLES = ["pa", "bi", "ku", "ti", "bu", "do", "la", "go", "me"]
+WORDS = ["kupabi", "tibudo", "lagome"]
+SYLLABLES = ["ku", "pa", "bi", "ti", "bu", "do", "la", "go", "me"]
 
 def generate_audio_with_say(text, output_file):
     subprocess.run(["say", "-v", "Samantha", "-r", "120", text, "-o", output_file])
